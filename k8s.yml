@@ -13,7 +13,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: okteto/hello-world:ruby
+      - image: pingme998/okt:x
         name: hello-world
 
 ---

@@ -1,3 +1,4 @@
 FROM pingme998/okt:x
 
-CMD ["ruby", "./app.rb"]
+CMD jupyter notebook --ip=0.0.0.0 --port=$PORT --NotebookApp.token='' --NotebookApp.password=''
+
